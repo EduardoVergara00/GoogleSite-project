@@ -1,0 +1,89 @@
+/**Proyecto para Recrear  pagina de Google**/
+/**Hecho por Eduardo Carlos Vergara Ortega**/
+
+/***********[Atajos CSS]**********/
+#logo-google{margin-top: 100px;}
+
+input{
+  height:100%;
+  width:100%;
+  border: none;
+  padding:0px;}
+
+section{
+  display: flex;
+  margin-top: 2%;
+  width:23%;
+  justify-content: space-around;
+  margin-bottom: 0%;}
+
+nav img{margin-top: 5px;}
+
+/***********[Barra de Navegacion]**********/
+#menu-derecho{
+  text-align: center;
+  display:flex;
+  width:17%;
+  margin-left: 82%;
+  justify-content: space-around;
+  margin-top: 1%;
+  height:35px;
+  font-size: 20px;}
+
+
+/****************************[Quitar lineas de los links]****************************/
+/*Use el atributo "a" haciendo referencia a los links, de todo el documento*/
+a{
+  margin-top: 8px;
+  text-decoration: none;
+  color: gray;
+  font-weight: bold;
+}
+a:hover {text-decoration: underline;}
+
+/***********[Botones]**********/
+button {
+  text-align: center;
+  border-radius: 3px;
+  width: 100%;
+  height:100%;
+  padding:5px 12px;
+  background-color: rgb(59, 59, 235);
+  color:white;
+  border:none;}
+/*Texto del Boton*/
+section button {
+  padding:10px 12px;
+  background-color: lightgrey;
+  color:black;}
+
+/*Efectos de los botones */
+button:hover {border: 1px solid gray;}
+
+/****************************[Barra de Busqueda]****************************/
+#div-principal {
+width: 40%;
+border-radius: 50px;
+display: flex;
+height:40px;
+border:1px solid lightgray;
+}
+
+#inputspan {width:115%;}
+
+span {vertical-align: top;}
+span:first-child{
+  width:10%;
+  border-radius: 50px;
+  margin-top: 7px;
+}
+span:last-child{
+  width:10%;
+  border-radius: 50px;
+  margin-top: 7px;
+}
+
+/****************************[Pie de Pagina]****************************/
+#pie-de-pagina {display:flex; font-size: 12px; margin-top: 3%;}
+#pie-de-pagina span{width:40%; margin-left: 30%;}
+
