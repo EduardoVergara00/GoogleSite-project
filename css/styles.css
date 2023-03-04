@@ -1,7 +1,7 @@
 /**Proyecto para Recrear  pagina de Google**/
 /**Hecho por Eduardo Carlos Vergara Ortega**/
 
-/***********[Atajos CSS]**********/
+/*[Atajos CSS]*/
 #logo-google{margin-top: 100px;}
 
 input{
@@ -19,7 +19,7 @@ section{
 
 nav img{margin-top: 5px;}
 
-/***********[Barra de Navegacion]**********/
+/*[Barra de Navegacion]*/
 #menu-derecho{
   text-align: center;
   display:flex;
@@ -31,7 +31,7 @@ nav img{margin-top: 5px;}
   font-size: 20px;}
 
 
-/****************************[Quitar lineas de los links]****************************/
+/*[Quitar lineas de los links]*/
 /*Use el atributo "a" haciendo referencia a los links, de todo el documento*/
 a{
   margin-top: 8px;
@@ -41,7 +41,7 @@ a{
 }
 a:hover {text-decoration: underline;}
 
-/***********[Botones]**********/
+/*[Botones]*/
 button {
   text-align: center;
   border-radius: 3px;
@@ -60,7 +60,7 @@ section button {
 /*Efectos de los botones */
 button:hover {border: 1px solid gray;}
 
-/****************************[Barra de Busqueda]****************************/
+/*[Barra de Busqueda]*/
 #div-principal {
 width: 40%;
 border-radius: 50px;
@@ -83,7 +83,7 @@ span:last-child{
   margin-top: 7px;
 }
 
-/****************************[Pie de Pagina]****************************/
+/*[Pie de Pagina]*/
 #pie-de-pagina {display:flex; font-size: 12px; margin-top: 3%;}
 #pie-de-pagina span{width:40%; margin-left: 30%;}
 
